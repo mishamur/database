@@ -1114,11 +1114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\DbApi\\DbApi.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\mishamur\\DbApi\\DbApi.csproj",
       "projectName": "DbApi",
-      "projectPath": "C:\\Users\\User\\source\\repos\\DbApi\\DbApi.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\mishamur\\DbApi\\DbApi.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\DbApi\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\mishamur\\DbApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

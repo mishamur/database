@@ -7,15 +7,17 @@ namespace DbApi
     {
         public static void LoadBonus(string bonusName, int level)
         {
-            Bonus bonus = new Bonus { BonusName = bonusName, Level = level };
-            using(ApplicationContext db = new ApplicationContext())
+            Bonus bonus = null;
+            using (ApplicationContext db = new ApplicationContext())
             {
-                if(db.Bonuses.Find(bonusName) != null)
+                if((bonus = db.Bonuses.Find(bonusName)) != null)
                 {
+                    bonus.Level = level;
                     db.Bonuses.Update(bonus);
                 }
                 else
                 {
+                    bonus = new Bonus { BonusName = bonusName, Level = level };
                     db.Bonuses.Add(bonus);
                 }
                 db.SaveChanges();
@@ -32,15 +34,17 @@ namespace DbApi
 
         public static void LoadProjectile(string projectileName, int level)
         {
-            Projectile projectile = new Projectile { ProjectileName = projectileName, Level = level};
+            Projectile projectile = null;
             using (ApplicationContext db = new ApplicationContext())
             {
-                if (db.Projectiles.Find(projectileName) != null)
+                if ((projectile = db.Projectiles.Find(projectileName)) != null)
                 {
+                    projectile.Level = level;
                     db.Projectiles.Update(projectile);
                 }
                 else
                 {
+                    projectile = new Projectile { ProjectileName = projectileName, Level = level };
                     db.Projectiles.Add(projectile);
                 }
                 db.SaveChanges();
@@ -57,16 +61,22 @@ namespace DbApi
         public static void LoadStat(int hp, int movespeedLevel, int defenceLevel)
         {
             int id = 1;
-            Stat stat = new Stat { Id = id, DefenceLevel = defenceLevel, Hp = hp, MovespeedLevel = movespeedLevel };
-
-            using(ApplicationContext db = new ApplicationContext())
+            Stat stat = null;
+            using (ApplicationContext db = new ApplicationContext())
             {
-                if (db.Stats.Find(id) != null)
+
+                if ((stat = db.Stats.Find(id)) != null)
                 {
+                    stat.Hp = hp;
+                    stat.MovespeedLevel = movespeedLevel;
+                    stat.DefenceLevel = defenceLevel;
+
                     db.Stats.Update(stat);
                 }
                 else
                 {
+                    stat = new Stat { Id = id, DefenceLevel = defenceLevel, Hp = hp, MovespeedLevel = movespeedLevel };
+
                     db.Stats.Add(stat);
                 }
                 db.SaveChanges();

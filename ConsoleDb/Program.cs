@@ -5,7 +5,7 @@ public class Program
     public static void Main(string[] args)
     {
         
-        DbApi.Api.LoadBonus("hui20sm", 1000);
+        DbApi.Api.LoadBonus("hui20sm", 10);
         var bonus = Api.GetBonusByName("hui20sm");
         Console.WriteLine(bonus);
 

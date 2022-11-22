@@ -960,11 +960,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\ConsoleDb\\ConsoleDb.csproj",
+      "projectUniqueName": "C:\\Users\\User\\source\\repos\\mishamur\\ConsoleDb\\ConsoleDb.csproj",
       "projectName": "ConsoleDb",
-      "projectPath": "C:\\Users\\User\\source\\repos\\ConsoleDb\\ConsoleDb.csproj",
+      "projectPath": "C:\\Users\\User\\source\\repos\\mishamur\\ConsoleDb\\ConsoleDb.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\ConsoleDb\\obj\\",
+      "outputPath": "C:\\Users\\User\\source\\repos\\mishamur\\ConsoleDb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -981,8 +981,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\DbApi\\DbApi.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\DbApi\\DbApi.csproj"
+            "C:\\Users\\User\\source\\repos\\mishamur\\DbApi\\DbApi.csproj": {
+              "projectPath": "C:\\Users\\User\\source\\repos\\mishamur\\DbApi\\DbApi.csproj"
             }
           }
         }

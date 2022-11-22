@@ -28,6 +28,7 @@ namespace DbApi
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlite($"Data Source={this.DbPath}");
+            optionsBuilder.EnableSensitiveDataLogging();
         }
     }
 }

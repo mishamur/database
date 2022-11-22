@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\DbApi\obj\Debug\net5.0\DbApi.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\DbApi\obj\Debug\net5.0\DbApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\DbApi\obj\Debug\net5.0\DbApi.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\DbApi\obj\Debug\net5.0\DbApi.AssemblyInfo.cs
+C:\Users\User\source\repos\DbApi\obj\Debug\net5.0\DbApi.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\DbApi\bin\Debug\net5.0\DbApi.deps.json
+C:\Users\User\source\repos\DbApi\bin\Debug\net5.0\DbApi.runtimeconfig.json
+C:\Users\User\source\repos\DbApi\bin\Debug\net5.0\DbApi.runtimeconfig.dev.json
+C:\Users\User\source\repos\DbApi\bin\Debug\net5.0\DbApi.dll
+C:\Users\User\source\repos\DbApi\bin\Debug\net5.0\DbApi.pdb
+C:\Users\User\source\repos\DbApi\obj\Debug\net5.0\DbApi.dll
+C:\Users\User\source\repos\DbApi\obj\Debug\net5.0\refint\DbApi.dll
+C:\Users\User\source\repos\DbApi\obj\Debug\net5.0\DbApi.pdb
+C:\Users\User\source\repos\DbApi\obj\Debug\net5.0\DbApi.genruntimeconfig.cache
+C:\Users\User\source\repos\DbApi\obj\Debug\net5.0\ref\DbApi.dll
